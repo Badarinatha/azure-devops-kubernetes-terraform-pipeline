@@ -21,7 +21,7 @@ stages:
       displayName: Build an image
       inputs:
         containerRegistry: 'docker-hub-connection'
-        repository: 'boatdocker/currency-exchange'
+        repository: 'currency-exchange'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: '$(tag)'
